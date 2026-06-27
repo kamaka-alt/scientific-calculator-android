@@ -72,7 +72,7 @@ object ConstantsEngine {
         PhysicalConstant("eu",    "Euler's number",                   "e",   Math.E,              "",           "Mathematical", 0.0),
         PhysicalConstant("phi",   "Golden ratio",                     "φ",   1.6180339887498948,  "",           "Mathematical", 0.0),
         PhysicalConstant("gamma", "Euler–Mascheroni constant",        "γ",   0.5772156649015329,  "",           "Mathematical", 0.0),
-        PhysicalConstant("sqrt2", "Square root of 2",                 "√2",  Math.SQRT2,          "",           "Mathematical", 0.0)
+        PhysicalConstant("sqrt2", "Square root of 2",                 "√2",  1.4142135623730951,  "",           "Mathematical", 0.0)
     )
 
     private val byKey: Map<String, PhysicalConstant> = catalogue.associateBy { it.key }
