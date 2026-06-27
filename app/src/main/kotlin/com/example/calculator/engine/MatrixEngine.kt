@@ -390,7 +390,7 @@ class MatrixEngine {
         }
     }
 
-    /** Find the position of the first top-level binary operator (+/-/*) outside brackets. */
+    /** Find the position of the first top-level binary operator (+,-,*) outside brackets. */
     private fun findTopLevelOp(expr: String): Pair<Int, Int>? {
         var depth = 0
         // Scan right-to-left so +/- precedence is respected
