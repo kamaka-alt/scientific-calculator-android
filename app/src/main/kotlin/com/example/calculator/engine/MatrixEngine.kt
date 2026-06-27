@@ -34,12 +34,12 @@ class Matrix(val data: Array<DoubleArray>) {
 
     operator fun plus(other: Matrix): Matrix {
         requireSameDims(other, "addition")
-        return Matrix(Array(rows) { i -> DoubleArray(cols) { j -> data[i][j] + other[i][j] } })
+        return Matrix(Array(rows) { i -> DoubleArray(cols) { j -> data[i][j] + other[i,j] } })
     }
 
     operator fun minus(other: Matrix): Matrix {
         requireSameDims(other, "subtraction")
-        return Matrix(Array(rows) { i -> DoubleArray(cols) { j -> data[i][j] - other[i][j] } })
+        return Matrix(Array(rows) { i -> DoubleArray(cols) { j -> data[i][j] - other[i,j] } })
     }
 
     operator fun times(other: Matrix): Matrix {
@@ -48,7 +48,7 @@ class Matrix(val data: Array<DoubleArray>) {
         }
         return Matrix(Array(rows) { i ->
             DoubleArray(other.cols) { j ->
-                (0 until cols).sumOf { k -> data[i][k] * other[k][j] }
+                (0 until cols).sumOf { k -> data[i][k] * other[k,j] }
             }
         })
     }
