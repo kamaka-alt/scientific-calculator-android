@@ -320,7 +320,7 @@ class MainActivity : AppCompatActivity() {
             "R"  to "Gas constant",
             "g"  to "Standard gravity",
             "pi" to "Pi (π)",
-            "phi"to "Golden ratio (φ)"
+            "phi" to "Golden ratio (φ)"
         )
         AlertDialog.Builder(this, R.style.Theme_Calculator)
             .setTitle("Physical Constants")
