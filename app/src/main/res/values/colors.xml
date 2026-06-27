@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#FF1A1A1A</color>
+    <color name="bg_display">#FFB8CEC8</color>
+    <color name="bg_btn_default">#FF2D2D2D</color>
+    <color name="bg_btn_shift">#FFFF8C00</color>
+    <color name="bg_btn_alpha">#FF6B5AE0</color>
+    <color name="bg_btn_orange">#FFFF8C00</color>
+    <color name="bg_btn_equal">#FF1A1A1A</color>
+    <color name="bg_btn_numpad">#FF242424</color>
+    <color name="bg_control">#FF111111</color>
+
+    <color name="txt_btn">#FFFFFFFF</color>
+    <color name="txt_shift_label">#FFFFC107</color>
+    <color name="txt_alpha_label">#FF7EC8E3</color>
+    <color name="txt_display_expr">#FF333333</color>
+    <color name="txt_display_result">#FF111111</color>
+    <color name="txt_mode_active">#FFFFFFFF</color>
+    <color name="txt_mode_inactive">#66FFFFFF</color>
+    <color name="txt_orange">#FFFF8C00</color>
+
+    <color name="divider">#33FFFFFF</color>
+    <color name="shift_active_bg">#CCFF8C00</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
